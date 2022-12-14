@@ -1,5 +1,7 @@
 package com.example.paradigmbookstore.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -10,6 +12,8 @@ public class Category {
     @Id
     private Long id;
     @OneToMany(mappedBy = "category")
+    @JsonIgnore
     private List<Book> books;
+    private String name;
 
 }
