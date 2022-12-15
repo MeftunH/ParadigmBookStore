@@ -19,6 +19,8 @@ public class Book {
     private String title;
     private String authorName;
 
+    @Enumerated(value = EnumType.STRING)
+    private BookStatus status;
     @ManyToOne
     @JoinColumn(name = "category_id")
     private Category category;
