@@ -18,6 +18,7 @@ public class Book extends BaseEntity {
     @ManyToOne
     @JoinColumn(name = "category_id")
     private Category category;
+    private Integer lastPageNumber;
 }
 
 
