@@ -8,11 +8,8 @@ import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass // This annotation is used to indicate that a class is a base class for an entity hierarchy.
 @Data
-public  abstract class BaseEntity {
+public abstract class BaseEntity {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = javax.persistence.GenerationType.IDENTITY)
     private Long id;
-    public BaseEntity(Long id) {
-        this.id = id;
-    }
 }

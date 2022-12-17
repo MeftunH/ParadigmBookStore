@@ -1,21 +1,15 @@
 package com.example.paradigmbookstore.model;
-
-import com.example.paradigmbookstore.dto.CategoryType;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-
 import javax.persistence.*;
 
 @Entity
 @Table(name = "book")
-@Getter
+@Data
 @NoArgsConstructor
 @SuperBuilder
-public class Book {
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Id
-    private Long id;
+public class Book extends BaseEntity {
     private String title;
     private String authorName;
 
@@ -25,3 +19,7 @@ public class Book {
     @JoinColumn(name = "category_id")
     private Category category;
 }
+
+
+
+
