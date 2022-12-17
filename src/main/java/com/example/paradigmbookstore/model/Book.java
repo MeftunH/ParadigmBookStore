@@ -19,6 +19,8 @@ public class Book extends BaseEntity {
     @JoinColumn(name = "category_id")
     private Category category;
     private Integer lastPageNumber;
+    @OneToOne
+    private Image image;
 }
 
 
