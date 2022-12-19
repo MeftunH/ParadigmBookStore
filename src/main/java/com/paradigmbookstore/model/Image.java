@@ -1,4 +1,4 @@
-package com.example.paradigmbookstore.model;
+package com.paradigmbookstore.model;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

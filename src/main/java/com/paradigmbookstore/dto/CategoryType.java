@@ -1,4 +1,4 @@
-package com.example.paradigmbookstore.dto;
+package com.paradigmbookstore.dto;
 
 public enum CategoryType {
     SCIENCE("Science"),

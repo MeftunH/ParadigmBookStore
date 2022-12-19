@@ -1,4 +1,4 @@
-package com.example.paradigmbookstore.model;
+package com.paradigmbookstore.model;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
