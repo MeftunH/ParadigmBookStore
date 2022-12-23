@@ -19,7 +19,8 @@ public class BookSaveService {
     public void saveBook(SaveBookRequest saveBookRequest)
    {
        Category category = categoryService.loadCategory(saveBookRequest.getCategoryId());
-       Book.builder()
+
+       final Book book = Book.builder()
                .category(category)
                .status(saveBookRequest.getStatus())
                .title(saveBookRequest.getTitle())
