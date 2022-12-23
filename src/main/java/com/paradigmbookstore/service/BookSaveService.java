@@ -7,12 +7,15 @@ import com.paradigmbookstore.request.book.SaveBookRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
+
 @RequiredArgsConstructor
 @Service
 public class BookSaveService {
     private final BookRepository bookRepository;
    private final CategoryService categoryService;
 
+   @Transactional
     public void saveBook(SaveBookRequest saveBookRequest)
    {
        Category category = categoryService.loadCategory(saveBookRequest.getCategoryId());
