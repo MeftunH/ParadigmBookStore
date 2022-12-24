@@ -28,5 +28,7 @@ public class BookSaveService {
                .lastPageNumber(saveBookRequest.getLastPageNumber())
                .build();
 
+       bookRepository.save(book);
+
    }
 }
