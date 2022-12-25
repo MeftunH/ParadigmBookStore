@@ -17,4 +17,5 @@ public final class SaveBookRequest {
     private Integer lastPageNumber;
     private File file;
     private Long categoryId;
+    private Integer totalPageNumber;
 }

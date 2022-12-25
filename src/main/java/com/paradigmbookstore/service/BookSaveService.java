@@ -26,6 +26,7 @@ public class BookSaveService {
                .title(saveBookRequest.getTitle())
                .authorName(saveBookRequest.getAuthorName())
                .lastPageNumber(saveBookRequest.getLastPageNumber())
+               .totalPageNumber(saveBookRequest.getTotalPageNumber())
                .build();
 
        bookRepository.save(book);

@@ -21,6 +21,7 @@ public class Book extends BaseEntity {
     private Integer lastPageNumber;
     @OneToOne
     private Image image;
+    private Integer totalPageNumber;
 }
 
 
