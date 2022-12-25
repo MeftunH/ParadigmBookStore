@@ -29,6 +29,7 @@ public class BookSaveService {
                .build();
 
        bookRepository.save(book);
+       final Book fromDB = bookRepository.save(book);
 
    }
 }
