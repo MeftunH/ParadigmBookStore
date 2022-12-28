@@ -3,10 +3,12 @@ package com.paradigmbookstore.dto;
 import com.paradigmbookstore.model.BookStatus;
 import com.paradigmbookstore.model.Category;
 import lombok.Data;
+import lombok.experimental.SuperBuilder;
 
 import java.io.File;
 
 @Data
+@SuperBuilder
 public class BookListResponse {
     private String title;
     private String authorName;
