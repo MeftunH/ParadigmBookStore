@@ -1,5 +1,6 @@
 package com.paradigmbookstore.service;
 
+import com.paradigmbookstore.dto.BookListResponse;
 import com.paradigmbookstore.model.Book;
 import com.paradigmbookstore.model.Category;
 import com.paradigmbookstore.repository.BookRepository;
@@ -16,7 +17,7 @@ public class BookSaveService {
    private final CategoryService categoryService;
 
    @Transactional
-    public void saveBook(SaveBookRequest saveBookRequest)
+    public BookListResponse saveBook(SaveBookRequest saveBookRequest)
    {
        Category category = categoryService.loadCategory(saveBookRequest.getCategoryId());
 
@@ -31,6 +32,15 @@ public class BookSaveService {
 
        bookRepository.save(book);
        final Book fromDB = bookRepository.save(book);
+       return BookListResponse.builder()
+               .categoryName(book.getCategory().getName())
+               .id(fromDB.getId())
+               .status(book.getStatus())
+               .authorName(book.getAuthorName())
+               .publisherName(book.getPublisherName())
+               .totalPageNumber(book.getTotalPageNumber())
+               .lastPageNumber(book.getLastPageNumber())
+               .build();
 
    }
 }
