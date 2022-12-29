@@ -12,6 +12,7 @@ import javax.persistence.*;
 public class Book extends BaseEntity {
     private String title;
     private String authorName;
+    private String publisherName;
 
     @Enumerated(value = EnumType.STRING)
     private BookStatus status;
