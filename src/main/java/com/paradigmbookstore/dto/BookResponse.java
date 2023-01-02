@@ -3,12 +3,14 @@ package com.paradigmbookstore.dto;
 import com.paradigmbookstore.model.BookStatus;
 import com.paradigmbookstore.model.Category;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 import java.io.File;
 
 @Data
 @SuperBuilder
+@NoArgsConstructor
 public class BookResponse {
     private String authorName;
     private String title;
