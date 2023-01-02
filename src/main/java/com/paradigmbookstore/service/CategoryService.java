@@ -13,4 +13,8 @@ public class CategoryService {
     public Category loadCategory(Long id){
         return categoryRepository.findById(id).orElseThrow();
     }
+
+    public Category findByName(String value) {
+      return categoryRepository.findByName(value);
+    }
 }
