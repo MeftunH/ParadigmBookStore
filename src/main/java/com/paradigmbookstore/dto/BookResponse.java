@@ -12,6 +12,7 @@ import java.io.File;
 @SuperBuilder
 @NoArgsConstructor
 public class BookResponse {
+    private Long id;
     private String authorName;
     private String title;
     private BookStatus status;
