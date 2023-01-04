@@ -44,7 +44,7 @@ public class BookListService {
                 .collect(Collectors.toList());
     }
 
-    public List<BookResponse> searchBookStatus(BookStatus bookStatus) {
+    public List<BookResponse> searchByBookStatus(BookStatus bookStatus) {
         return bookRepository.findByStatus(bookStatus)
                 .stream()
                 .map(each ->
