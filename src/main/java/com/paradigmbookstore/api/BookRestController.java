@@ -29,7 +29,7 @@ public class BookRestController {
                 .body(bookSaveService.saveBook(request));
     }
 
-    @GetMapping
+    @GetMapping("/search")
     public ResponseEntity<List<BookResponse>> listBooks(@RequestParam(name="size",value = "5")int size, @RequestParam(name = "page",value="1")int page){
      return ResponseEntity.ok(bookListService.listBooks(size,page));
     }
@@ -46,7 +46,7 @@ public class BookRestController {
 
     @GetMapping("/list/{bookStatus}")
     public ResponseEntity<List<BookResponse>> listByStatus(@PathVariable BookStatus bookStatus){
-        return ResponseEntity.ok(this.bookListService.searchBookStatus(bookStatus));
+        return ResponseEntity.ok(this.bookListService.searchByBookStatus(bookStatus));
     }
 
 
