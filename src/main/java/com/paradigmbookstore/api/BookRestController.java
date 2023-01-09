@@ -1,6 +1,5 @@
 package com.paradigmbookstore.api;
 
-import com.amazonaws.services.dynamodbv2.xspec.B;
 import com.paradigmbookstore.dto.BookListResponse;
 import com.paradigmbookstore.dto.BookResponse;
 import com.paradigmbookstore.dto.CategoryType;
