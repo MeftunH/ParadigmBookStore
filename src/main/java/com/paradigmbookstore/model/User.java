@@ -1,15 +1,14 @@
 package com.paradigmbookstore.model;
+import lombok.Data;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
-@Builder
-@NoArgsConstructor
+@Data
 @Table(name = "user")
 public class User extends BaseEntity {
+    private String username;
+    private String password;
 }
