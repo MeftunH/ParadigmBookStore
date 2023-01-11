@@ -14,4 +14,6 @@ public class User extends BaseEntity {
     @Enumerated(value = EnumType.STRING)
     private Role role;
 
+    private String email;
+
 }
