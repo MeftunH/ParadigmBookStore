@@ -17,7 +17,7 @@ public class Book extends BaseEntity {
     private String authorName;
     private String publisherName;
 
-    @Enumerated(value = EnumType.STRING)
+    @Enumerated(EnumType.STRING)
     private BookStatus status;
     @ManyToOne
     @JoinColumn(name = "category_id")
