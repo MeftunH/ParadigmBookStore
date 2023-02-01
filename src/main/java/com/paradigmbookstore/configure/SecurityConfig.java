@@ -29,6 +29,7 @@ public class SecurityConfig {
     {
         return http
                 .csrf().disable()
+                .cors().and()
                 .authorizeRequests((auth)->{
                     auth.antMatchers("/api/admin").hasAnyAuthority("ADMIN");
                     auth.antMatchers("/api/user").hasAnyAuthority("ADMIN","USER");
