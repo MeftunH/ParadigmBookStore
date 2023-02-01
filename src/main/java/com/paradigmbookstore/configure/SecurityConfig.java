@@ -1,8 +1,8 @@
 package com.paradigmbookstore.configure;
 
-import com.paradigmbookstore.Security.JwtAccessDeniedHandler;
-import com.paradigmbookstore.Security.JwtAuthenticationEntryPoint;
-import com.paradigmbookstore.Security.JwtFilter;
+import com.paradigmbookstore.security.JwtAccessDeniedHandler;
+import com.paradigmbookstore.security.JwtAuthenticationEntryPoint;
+import com.paradigmbookstore.security.JwtFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
