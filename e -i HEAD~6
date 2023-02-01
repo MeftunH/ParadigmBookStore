@@ -1,0 +1,230 @@
+[33mcommit 3ea495e0b23e515fa990c98dd7e5100767066765[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: 5bd1fbf 4471716
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Thu Jan 12 00:21:29 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Fri Feb 11 14:00:00 2011 +0100
+
+    Merge branch 'master' of https://github.com/MeftunH/ParadigmBookStore
+
+[33mcommit 5bd1fbf1450c6692bff1f68e6e773ec649d8e48b[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Sat Feb 11 14:00:00 2023 +0100
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Thu Jan 12 00:21:03 2023 +0300
+
+    add email
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit 4471716f3d4bf08ba9457d090b06b66504ba9bd3[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Thu Jan 12 00:18:21 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Thu Jan 12 00:18:21 2023 +0300
+
+    add email
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit 7d26ce4a32784f0a38c6135c9b0372ac3b9ebf59[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Tue Jan 10 22:59:17 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Tue Jan 10 22:59:17 2023 +0300
+
+    set role association
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit 25ae24c1d23aa899715dc67e98daa2b077db1b40[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Tue Jan 10 22:58:59 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Tue Jan 10 22:58:59 2023 +0300
+
+    add role enum
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit 524e04439965c0147ae62855c1b2fa6afe78339a[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Tue Jan 10 22:58:49 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Tue Jan 10 22:58:49 2023 +0300
+
+    set unique username validation
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit eb6e9d5b5aa30a9dcbde66c05807bb9d32ce5ae8[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Mon Jan 9 23:53:27 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Mon Jan 9 23:53:27 2023 +0300
+
+    remove unused import
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit 0275411323b15e09dd98973f820acebcb8960962[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Mon Jan 9 23:51:34 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Mon Jan 9 23:51:34 2023 +0300
+
+    request parameters value bugfix
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit 6a8ef5cd482c1ce03177b063e656f3440bfb83ba[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Mon Jan 9 23:50:37 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Mon Jan 9 23:50:37 2023 +0300
+
+    set entity
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit 4a96735e1a1bccaf483afb9402451984caa12656[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Mon Jan 9 23:50:26 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Mon Jan 9 23:50:26 2023 +0300
+
+    add spring doc
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit e6a6df6037813ffc6e51fe36067404a8f9ffea69[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Thu Jan 5 07:27:42 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Thu Jan 5 07:27:42 2023 +0300
+
+    Bug Fix: add missed endpoint declaration
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit dfd481c649b194358f594b065e5ea1e7127fbff2[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Thu Jan 5 07:27:00 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Thu Jan 5 07:27:00 2023 +0300
+
+    add custom error code enum class
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit 49b276725c187441f9f845c450dcdcf49c03ba0c[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Thu Jan 5 07:26:47 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Thu Jan 5 07:26:47 2023 +0300
+
+    add runtime generic exception class
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit 803d49133d927ec41053c0be730db4abc983752b[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Thu Jan 5 07:26:07 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Thu Jan 5 07:26:07 2023 +0300
+
+    set handle exception generic functionality
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit 9c0920662468780b5fca2929781896b4c3d37c28[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Thu Jan 5 07:25:39 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Thu Jan 5 07:25:39 2023 +0300
+
+    add jpa data dependency
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit 7615294911376502f1b2cf041945b630cf48fe0a[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Thu Jan 5 07:24:59 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Thu Jan 5 07:24:59 2023 +0300
+
+    Bug Fix: Super builder bean declaration problem fix
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit 15adbbc17708179c2b2cded7d7f4ee07ff0ece99[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Thu Jan 5 07:24:17 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Thu Jan 5 07:24:17 2023 +0300
+
+    set db and port properties
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit d1939ba55d7eadad1fdaad7426c86b2eb5e7bb54[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Thu Jan 5 06:46:59 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Thu Jan 5 06:46:59 2023 +0300
+
+    set return statement as bad request
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit e82bd6ec5bef050b3e4e9d81e5e5cac39424df6e[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Wed Jan 4 23:58:45 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Wed Jan 4 23:58:45 2023 +0300
+
+    override handle method argument not valid exception
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit 00c16481c8ee25f89e3f0f3314494da605fdbf51[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Wed Jan 4 23:56:00 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Wed Jan 4 23:56:00 2023 +0300
+
+    set handle exception base functionality
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit be2ab1c52b62932e8b01bce2d69ea626ae6ab934[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Wed Jan 4 23:55:12 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Wed Jan 4 23:55:12 2023 +0300
+
+    add global exception handler
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit dd947843f612ca159e22087ad1680b6aa19ad2b7[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Wed Jan 4 23:53:12 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Wed Jan 4 23:53:12 2023 +0300
+
+    rename service function
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit 7854e91c6c1cc03c429c16c5042bd6e7624aea1c[m
+Author:     Maftun Hashimli <maftunhashimli@gmail.com>
+AuthorDate: Tue Jan 3 06:08:31 2023 +0300
+Commit:     Maftun Hashimli <maftunhashimli@gmail.com>
+CommitDate: Tue Jan 3 06:08:31 2023 +0300
+
+    set book rest controller save list and search endpoints
+    
+    Signed-off-by: Maftun Hashimli <maftunhashimli@gmail.com>
+
+[33mcommit e2
