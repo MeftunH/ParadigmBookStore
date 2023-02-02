@@ -27,6 +27,14 @@ public class UserService {
                 .email(savedUser.getEmail())
                 .build();
     }
+    public UserDto getUser(String username) {
+        var savedUser = findUserByUsername(username);
+        return UserDto.builder()
+                .username(savedUser.getUsername())
+                .role(savedUser.getRole())
+                .email(savedUser.getEmail())
+                .build();
+    }
 
     public User findUserByUsername(String username) {
         return userRepository.findUserByUsername(username)
