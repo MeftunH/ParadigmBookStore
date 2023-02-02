@@ -1,7 +1,7 @@
 # ParadigmBookStore
 
 ## Description
-This is a simple bookstore application that allows users to add books to their cart and checkout. It is built using the following technologies:
+This is a simple bookstore application. It is built using the following technologies:
 - Java
 - Spring Boot
 - Spring Data JPA
