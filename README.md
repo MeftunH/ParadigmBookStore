@@ -14,7 +14,7 @@ This is a simple bookstore application that allows users to add books to their c
 - Run `mvn spring-boot:run` to start the application
 - Navigate to `http://localhost:8081` to access the application
 - Navigate to `http://localhost:8081/swagger-ui.html` to access the Swagger API documentation
-- Navigate to `http://localhost:8081/v2/api-docs` to access the Swagger API documentation in JSON format
+- Navigate to `http://localhost:8081/v1/api-docs` to access the Swagger API documentation in JSON format
 
 ## Usage
 - Navigate to `http://localhost:8081` to access the application
