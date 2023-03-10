@@ -18,7 +18,7 @@
     </properties>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-aws -->
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-aws MEFTUN NABER LAN-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-aws</artifactId>
